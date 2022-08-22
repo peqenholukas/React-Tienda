@@ -59,3 +59,7 @@
     bottom: -4px;
     left: 20px;
 }
+
+#contador {
+    padding-left: 0;
+}
