@@ -1,12 +1,12 @@
 import './NavBar.css';
 import CartWidget from './CartWidget';
-import ItemListContainer from './ItemListContainer';
+import Counter from './Counter';
 
 function NavBar() {
     return (
         <>
             <section id='header'>
-                <a href="#" id='logo-prin'>INDSTRIAS<span>ADATTO</span></a>
+                <a href="#" id='logo-prin'>INDUSTRIAS<span>ADATTO</span></a>
 
                 <div>
                     <ul id='navbar'>
@@ -16,7 +16,7 @@ function NavBar() {
                         <li><a href="#">Noticias</a></li>
                         <li><a href="#">Contacto</a></li>
                         <CartWidget />
-                        <ItemListContainer />
+                        <Counter />
                     </ul>
                 </div>
             </section>
