@@ -3,19 +3,14 @@ import { useState } from 'react'
 import { useEffect } from 'react'
 import './Items.css';
 
-const ItemCounter = (props) => {
+const ItemCounter = ({ stock, initial, onAdd }) => {
 
-    const stock = 0
+    const stock1  = { stock }
 
     const [counter, setCounter] = useState(0)
 
-    if (stock == 0) {
-
-    } else {
-        
-    }
     const incrementClick = () => {
-        if (stock == 0) {
+        if (stock1 == 0) {
             alert("No hay stock")
         } else if(counter < stock){
             setCounter(counter + 1)

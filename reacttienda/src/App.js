@@ -15,7 +15,7 @@ function App() {
     <div className="container">
       <h1>¡Hola mundo!</h1>
       <h3>Otro texto</h3>
-      <ItemCounter />
+      <ItemCounter stock="3"/>
     </div>
     </>
   );
