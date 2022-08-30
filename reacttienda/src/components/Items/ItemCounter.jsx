@@ -4,15 +4,22 @@ import { useEffect } from 'react'
 import './Items.css';
 
 const ItemCounter = (props) => {
+    
+    const stock = 3
+    
     const [counter, setCounter] = useState(0)
         
-
     const incrementClick = () =>{
-        setCounter(counter + 1)
-    }
+        if(counter < stock){
+            setCounter(counter + 1)
+        }
+    } 
 
     const decrementClick = () =>{
-        setCounter(counter - 1)
+        if(counter == 0){
+        } else {
+            setCounter(counter - 1)
+        }
     }
 
     return (
