@@ -1,0 +1,15 @@
+[
+    {
+        "id": "1",
+        "title": "FOTOCONTROL DE 3 CABLES",
+        "price": 750,
+        "img": "./img/fotocelula4cables.jpg"
+    },
+
+    {
+        "id": "2",
+        "title": "FOTOCONTROL DE 4 CABLES",
+        "price": 750,
+        "img": "./img/fotocelula4cables.jpg"
+    }
+]

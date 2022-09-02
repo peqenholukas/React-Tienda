@@ -7,8 +7,6 @@ import NavBar from './components/NavBar/NavBar';
 
 function App() {
 
-  const mensaje = `Bienvenido a react`
-
   return (
     <>
       <NavBar />
@@ -16,6 +14,7 @@ function App() {
       <h1>¡Hola mundo!</h1>
       <h3>Otro texto</h3>
       <ItemCount stock="50" initial="35"/>
+      <ItemListContainer />
     </div>
     </>
   );
