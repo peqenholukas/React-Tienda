@@ -6,8 +6,7 @@ function NavBar() {
     return (
         <>
             <section id='header'>
-                <a href="#" id='logo-prin'>INDUSTRIAS<span>ADATTO</span></a>
-
+                <a href="#" id='logo-prin'>industrias<span>adatto</span></a>
                 <div>
                     <ul id='navbar'>
                         <li><a href="#" className='active'>Inicio</a></li>
