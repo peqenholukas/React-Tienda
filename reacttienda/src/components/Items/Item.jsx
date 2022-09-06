@@ -4,7 +4,6 @@ import './Items.css'
 
 export const Item = ({items2}) => {
     const {title, img, price, marca} = items2
-    console.log(items2)
   return (
     <div className='pro-container'>
       <div className='pro'>

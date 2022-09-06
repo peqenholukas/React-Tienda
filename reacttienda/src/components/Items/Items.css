@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+.section-p1{
+    padding: 40px 80px;
+}
+
 .cont {
     display: flex;
     flex-direction: column;
@@ -102,3 +106,6 @@
     font-size: 15px;
     font-weight: 700;
 }
+
+/* ----------------- ITEM SINGLE ------------------------- */
+
