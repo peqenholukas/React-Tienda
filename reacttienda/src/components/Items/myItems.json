@@ -4,7 +4,17 @@
         "title": "FOTOCONTROL DE 3 CABLES",
         "price": 750,
         "img": "./img/fotocelula4cables.jpg",
-        "marca": "ADATTO"
+        "marca": "ADATTO",
+        "images":
+        [
+            {
+                "img1":"./img/fotocelula4.jpg",
+                "img2":"./img/fotocelula2.jpg",
+                "img3":"./img/fotocelula5.jpg",
+                "img4":"./img/fotocelula3.jpg"
+            }
+        ],
+        "desc":"    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi qui minima aliquid nobis cum? Eaque repudiandae nulla cupiditate voluptatum laboriosam veritatis? Quis id dolorem architecto fugit ad accusantium inventore hic."
     },
 
     {
@@ -12,6 +22,16 @@
         "title": "FOTOCONTROL DE 4 CABLES",
         "price": 800,
         "img": "./img/fotocelula4cables.jpg",
-        "marca": "ADATTO"
+        "marca": "ADATTO",
+        "images":
+        [
+            {
+                "img1":"./img/fotocelula4.jpg",
+                "img2":"./img/fotocelula2.jpg",
+                "img3":"./img/fotocelula5.jpg",
+                "img4":"./img/fotocelula3.jpg"
+            }
+        ],
+        "desc":"    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi qui minima aliquid nobis cum? Eaque repudiandae nulla cupiditate voluptatum laboriosam veritatis? Quis id dolorem architecto fugit ad accusantium inventore hic."
     }
 ]
