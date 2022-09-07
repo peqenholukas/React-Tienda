@@ -3,10 +3,6 @@ import ItemCount from './ItemCount'
 import "./Items.css"
 import ItemsJson from "./myItems.json"
 
-const MainImg = document.getElementById("MainImg")
-const smallimg = document.getElementById("small-image")
-console.log(MainImg, smallimg)
-
 const ItemDetail = () => {
     return (
         ItemsJson.map(items3 => {
