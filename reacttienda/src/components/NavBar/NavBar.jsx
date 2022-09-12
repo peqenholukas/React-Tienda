@@ -5,7 +5,7 @@ import Counter from './Counter';
 function NavBar() {
     return (
         <>
-            <section id='header'>
+            <section id='header' className='container'>
                 <a href="#" id='logo-prin'>industrias<span>adatto</span></a>
                 <div>
                     <ul id='navbar'>

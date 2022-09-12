@@ -1,7 +1,11 @@
 import React from 'react'
-import ItemCount from './ItemCount'
-import "./Items.css"
-import ItemsJson from "./myItems.json"
+import "../Items.css"
+import ItemsJson from "../myItems.json"
+import ItemCount from '../ItemCount'
+
+const MainImg = document.getElementById("MainImg")
+const smallimg = document.getElementById("small-image")
+console.log(MainImg, smallimg)
 
 const ItemDetail = () => {
     return (
@@ -30,11 +34,7 @@ const ItemDetail = () => {
                                 )
                             })
                         }
-
-
-
                     </div>
-
                     <div className='single-pro-details'>
                         <h6>{items3.marca}</h6>
                         <h4>{items3.title}</h4>
@@ -47,7 +47,6 @@ const ItemDetail = () => {
             )
         })
     )
-
 }
 
 export default ItemDetail
